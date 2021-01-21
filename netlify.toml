@@ -3,7 +3,7 @@
   command = "npm run build"
 
 [[plugins]]
-  package = "@sentry/netlify-build-plugin"
+  package = "./node_modules/@sentry/netlify-build-plugin"
 
   [plugins.inputs]
     sentryOrg = "waterloo-sparkling-water"
