@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 Sentry.init({
   dsn: "https://e69183d5c1b04eb6a8705e04c23889cb@o348567.ingest.sentry.io/5602379",
-  release: "netlify-sentry-test@0.0.2",
+  release: "netlify-sentry-test@0.0.3",
   autoSessionTracking: true,
   integrations: [
     new Integrations.BrowserTracing(),

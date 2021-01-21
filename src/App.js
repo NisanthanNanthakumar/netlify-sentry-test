@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-const func1 = () => new Error()
+const func1 = () => asdf()
 function App() {
   return (
     <div className="App">
