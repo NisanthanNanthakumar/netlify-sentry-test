@@ -1,0 +1,10 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[plugins]]
+  package = "@sentry/netlify-build-plugin"
+
+  [plugins.inputs]
+    sentryOrg = "waterloo-sparkling-water"
+    sentryProject = "netlify-react-test"

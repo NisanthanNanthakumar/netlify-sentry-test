@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
+const func1 = () => new Error()
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => func1()}>Broken button</button>
       </header>
     </div>
   );
